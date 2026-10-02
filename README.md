@@ -75,7 +75,14 @@ Run ESLint checks:
 npm run lint
 ```
 
+## Deploying to GitHub Pages
+
+The GitHub Actions workflow in `.github/workflows/deploy.yml` builds and publishes the site whenever changes are pushed to `master`.
+
+In the repository settings, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. After the workflow completes, the site will be available at:
+
+https://prosnero-glitch.github.io/my-app/
+
 ## Notes
 
 This project is a beginner-friendly React setup intended to practice UI composition, state management, and event handling in a simple front-end app.
-
