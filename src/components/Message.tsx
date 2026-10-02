@@ -4,7 +4,7 @@ import '../App.css'
 function Message() {
   return (
     <div>
-      <p className="paragraph"></p>
+      <p className="paragraph-text"></p>
     </div>
   )
 }export default Message

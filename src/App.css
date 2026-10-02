@@ -1,10 +1,13 @@
-.message {
-    font-size: 18px;
-    color: blue;
-    margin-bottom: 16px;
-  }
+.paragraph-text {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  color: blueviolet;
+  font-size: 18px;
+  line-height: 1.7;
+  text-align: center;
+}
 #first{
-  color: red;
+  color: var(--text-h);
   font-size: larger;
 }
 
@@ -44,7 +47,7 @@
 .app-footer {
   margin-top: auto;
   padding: 24px 20px;
-  border-top: 1px solid var(--border);
+  border-top: 2px solid blueviolet;
   color: var(--text);
 }
 
@@ -59,7 +62,7 @@
 .name-field input {
   font: inherit;
   padding: 8px 12px;
-  border: 1px solid var(--border);
+  border: 8px solid var(--border);
   border-radius: 6px;
   background: var(--bg);
   color: var(--text-h);
@@ -72,7 +75,7 @@
   border-radius: 5px;
   color: var(--accent);
   background: var(--accent-bg);
-  border: 2px solid transparent;
+  border: 6px solid transparent;
   transition: border-color 0.3s;
   margin-bottom: 24px;
 
